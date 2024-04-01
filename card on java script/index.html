@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <script>
+
+          let students=[
+             {
+                id:1,
+                name:"Ahmad",
+                city:"kabul",
+                img:"photos/1.jpg",
+             },
+
+
+
+             {
+                id:1,
+                name:"Ahmad",
+                city:"kabul",
+                img:"photos/1.jpg",
+             },
+
+          ];
+          students.forEach(function(v){
+            document.write(`
+            <div class="col-md-3 mt-4">
+              <div class="card p-3">
+                <div class="stu-thumb">
+                  <img src="${v.img}" width="100%" hight="200px">
+                  <div>
+                    <div class="details>
+                      <h3 class= </h3>
+                      
+                      
+                      </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+            `)
+          })
+            </script>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--     
+   <script src="app.js"></script>  -->
+</body>
+</html>
